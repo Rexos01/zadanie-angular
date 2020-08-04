@@ -1,0 +1,9 @@
+<th class="align-middle" scope="row">{{ index }}</th>
+<td class="align-middle"> <img [src]="user.avatar" width="40"> </td>
+<td class="align-middle">{{ user.first_name }}</td>
+<td class="align-middle">{{ user.last_name }}</td>
+<td class="align-middle">{{ user.email }}</td>
+<td class="align-middle text-right">
+  <button class="btn btn-link" (click)="editUser()"><i class="fas fa-edit"></i></button>
+  <button class="btn btn-link" (click)="deleteUser()"><i class="fas fa-trash-alt"></i></button>
+</td>

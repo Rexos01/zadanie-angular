@@ -1,0 +1,16 @@
+// Bootstrap overwrite
+$primary: #44001a;
+$secondary: #b15b5b;
+
+$font-family-base: Lato;
+//$font-size-base: 18px;
+
+//
+
+html {
+  font-size: 18px;
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
